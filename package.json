@@ -1,0 +1,25 @@
+{
+  "name": "apiproject",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bin/www",
+  "scripts": {
+    "start": "nodemon bin/www",
+    "test": "mocha"
+  },
+  "author": "Joydeep B. (jb027m)",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "express-request-id": "^1.4.1",
+    "jsonschema": "^1.2.4",
+    "morgan": "^1.9.1",
+    "winston": "^3.2.1"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.1.4",
+    "supertest": "^4.0.2"
+  }
+}

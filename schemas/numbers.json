@@ -1,0 +1,20 @@
+{
+    "id": "/numbers",
+    "type": "object",
+    "properties": {
+      "number1": {
+        "type": "integer",
+        "minLength": 1
+      },
+      "number2": {
+        "type": "integer",
+        "minLength": 1
+      }
+    },
+    "required": [
+      "number1",
+      "number2"
+    ],
+    "additionalProperties": false
+  }
+  
